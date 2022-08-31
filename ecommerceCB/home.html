@@ -1,0 +1,372 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="Página de E-commerce para finalização do curso de frontEnd do Diego Perly.">
+        <meta name="robots" content="index,follow">
+        <meta name="rating" content="general">
+        <link rel="icon" href="imagem\favicon.png">
+        <title>E-Commerce CodeBlue</title>
+        <!-- bootstrap -->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+        <!-- icon bootstrap -->
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+
+        <!-- nosso css -->
+        <link rel="stylesheet" href="CSS\style.css">
+    </head>
+    <body>
+        <header>
+            <!-- bg(background) pt(padding-top) w(width)-->
+            <nav class="bg-white position-fixed w-100 " style="z-index:1">
+                <section class="navbar container">
+                    <article class="hamburguer d-none navbar">
+                        <p></p>
+                        <p></p>
+                        <p></p>
+                    </article>
+                    <figure class="navbar">
+                        <img src="imagem\logo.png" alt="Logo candleaf formato de uma vela acessa na cor verde e branca">
+                    </figure>
+                    <ul class="navbar list-unstyled">
+                        <li class="me-5">
+                            <a href="#" class="text-decoration-none">Discovery</a>
+                            <ul class="list-unstyled d-none">
+                                <li>
+                                    <a href="#" class="text-decoration-none">Spiced</a>
+                                </li>
+                                <li>
+                                    <a href="#" class="text-decoration-none">Sweet</a>
+                                </li>
+                                <li>
+                                    <a href="#" class="text-decoration-none">Cool</a>
+                                </li>
+                                <li>
+                                    <a href="#" class="text-decoration-none">Juicy</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="mx-5 pe-5">
+                            <a href="#about" class="text-decoration-none">About</a>
+                        </li>
+                        <li class="pe-5">
+                            <a href="#" class="text-decoration-none">Contact us</a>
+                        </li>
+                    </ul>
+                    <ul class="navbar list-unstyled">
+                        <li class="me-3">
+                            <a href="#" class="text-decoration-none">
+                                <i class="bi bi-person"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#" class="text-decoration-none">
+                                <i class="bi bi-cart col"></i>
+                            </a>
+                        </li>
+                    </ul>
+                </section>
+            </nav>
+            <section class="position-relative">
+                <figure>
+                    <picture>
+                        <source media="(max-width:600px)" srcset="imagem\fundo-mobile.png" class="w-100" alt="uma mesa com ramos e potes para manipular e preparar as fragancias">
+                        <img src="imagem\fundo-desktop.jpg" class="w-100" alt="uma mesa com ramos e potes para manipular e preparar as fragancias">
+                    </picture>
+                </figure>
+                <article class="position-absolute top-50 start-50 translate-middle bg-light bg-opacity-75 text-center px-5 pb-3 pt-5">
+                    <figure>
+                        <picture>
+                            <source media="(max-width:600px)" srcset="imagem\hero-title-mob.png" alt="uma planta recém germinada" width="100%">
+                            <img src="imagem\hero-title.png" alt="uma planta recém germinada">
+                        </picture>
+                    </figure>
+                    <p class="pb-3 px-5">
+                        All handmade with natural soy wax, Candleaf is a companion for all your pleasure moments 
+                    </p>
+                    <button class="mb-5 bg-success bg-opacity-75 border-0 botao">
+                        <a href="#spiced" class="w-100 px-4 py-3 list-unstyled text-white text-decoration-none">
+                            Discovery our collection
+                        </a>
+                    </button>
+                </article>
+            </section>
+        </header>
+        <main>
+            <section class="container">
+                <h1 class="text-center">Products</h1>
+                <h6 class="text-center">Order it for you or for your beloved ones</h6>
+                <article class="row">
+                    <article id="spiced" class="col">
+                        <figure>
+                            <a href="#">
+                                <img class="bg-secondary bg-opacity-10" src="imagem\spicedMint.png" alt="Fragancia Spiced mint coloração azul">
+                            </a>
+                        </figure>
+                        <p>Spiced Mint</p>
+                        <p>9.99$</p>
+                    </article>
+                    <article class="col">
+                        <figure>
+                            <img  class="bg-secondary bg-opacity-10" src="imagem\sweetBerry.png" alt="Fragancia Sweet strawberry">
+                        </figure>
+                        <p>Sweet Strawberry</p>
+                        <p>9.99$</p>
+                    </article>
+                    <article class="col">
+                        <figure>
+                            <img  class="bg-secondary bg-opacity-10" src="imagem\juicyLemon.png" alt="Fragancia Juicy Lemon">
+                        </figure>
+                        <p>Juicy Lemon</p>
+                        <p>9.99$</p>
+                    </article>
+                    <article class="col">
+                        <figure>
+                            <img  class="bg-secondary bg-opacity-10" src="imagem\cleanLavander.png" alt="Fragancia Clean Lavander">
+                        </figure>
+                        <p>Juicy Lemon</p>
+                        <p>9.99$</p>
+                    </article>
+                    <!-- no mobile é ate aqui -->
+                    <article class="col">
+                        <figure>
+                            <img  class="bg-secondary bg-opacity-10" src="imagem\productName.png" alt="Fragancia Product Name">
+                        </figure>
+                        <p>Product Name</p>
+                        <p>9.99$</p>
+                    </article>
+                    <article class="col">
+                        <figure>
+                            <img  class="bg-secondary bg-opacity-10" src="imagem\fragant.png" alt="Fragancia Fragrant Cinnamon">
+                        </figure>
+                        <p>Fragrant Cinnamon</p>
+                        <p>9.99$</p>
+                    </article>
+                    <article class="col">
+                        <figure>
+                            <img  class="bg-secondary bg-opacity-10" src="imagem\summer.png" alt="Fragancia Summer Cherries">
+                        </figure>
+                        <p>Summer Cherries</p>
+                        <p>9.99$</p>
+                    </article>
+                    <article class="col">
+                        <figure>
+                            <img  class="bg-secondary bg-opacity-10" src="imagem\cleanLavander.png" alt="Fragancia Clean Lavander">
+                        </figure>
+                        <p>Clean Lavander</p>
+                        <p>9.99$</p>
+                    </article>
+                </article>
+            </section>
+            <button>
+                <a href="#">See more</a>
+            </button>
+            <section class="bg-secondary bg-opacity-10">
+                <article class="container">
+                    <h1>Clean and fragrant soy wax</h1>
+                    <p>Made for your home and for your wellness</p>
+                    <article id="about" class="row">
+                        <figure class="col order-2">
+                            <img class=" bg-white" src="imagem\mockups.png" alt="Fragancias Spiced mint and Juicy Lemon" loading="lazy">
+                        </figure>
+                        <ul class="col">
+                            <li>
+                                <i class="bi bi-check-circle"></i>
+                                <strong>Eco-sustainable:</strong>All recyclable materials, 0% CO2 emissions
+                            </li>
+                            <li>
+                                <i class="bi bi-check-circle"></i>
+                                <strong>Hyphoallergenic:</strong> 100% natural, human friendly ingredients 
+                            </li>
+                            <li>
+                                <i class="bi bi-check-circle"></i>
+                                <strong>Handmade:</strong> All candles are craftly made with love.
+                            </li>
+                            <li>
+                                <i class="bi bi-check-circle"></i>
+                                <strong>Long burning:</strong> No more waste. Created for last long.
+                            </li>
+                        </ul>
+                    </article>
+                </article>
+                <button>
+                    <a href="#">See more</a>
+                </button>
+            </section>
+            <section class="bg-primary bg-gradient bg-opacity-10">
+                <article class="container">
+                    <h1 class="text-center">Testimonials</h1>
+                    <h6 class="text-center">Some quotes from our happy customers</h6>
+                    <article class="d-flex pb-5 pt-2">
+                        <!-- luisa -->
+                        <article class="col-4 bg-white">
+                            <figure>
+                                <img src="imagem\luisa.png" alt="Foto perfil moça cabelo castanho e camisa amarela">
+                            </figure>
+                            <!-- list-unstyled retira a marcação do li -->
+                            <ul class="row list-unstyled">
+                                <li class="col">
+                                    <img src="imagem\star.png" alt="estrela verde">
+                                </li>
+                                <li class="col">
+                                    <img src="imagem\star.png" alt="estrela verde">
+                                </li>
+                                <li class="col">
+                                    <img src="imagem\star.png" alt="estrela verde">
+                                </li>
+                                <li class="col">
+                                    <img src="imagem\star.png" alt="estrela verde">
+                                </li>
+                                <li class="col">
+                                    <img src="imagem\starw.png" alt="estrela verde">
+                                </li>
+                            </ul>
+                            <p>“I love it! No more air fresheners”</p>
+                            <p>Luisa</p>
+                        </article>
+                        <!-- eduardo -->
+                        <article class="col-4 bg-white mx-3">
+                            <figure>
+                                <img src="imagem\eduardo.png" alt="Foto perfil moça cabelo castanho e camisa amarela">
+                            </figure>
+                            <ul class="row list-unstyled">
+                                <li class="col">
+                                    <img src="imagem\star.png" alt="estrela verde">
+                                </li>
+                                <li class="col">
+                                    <img src="imagem\star.png" alt="estrela verde">
+                                </li>
+                                <li class="col">
+                                    <img src="imagem\star.png" alt="estrela verde">
+                                </li>
+                                <li class="col">
+                                    <img src="imagem\star.png" alt="estrela verde">
+                                </li>
+                                <li class="col">
+                                    <img src="imagem\starw.png" alt="estrela verde">
+                                </li>
+                            </ul>
+                            <p>“Raccomended for<br> everyone”</p>
+                            <p>Eduardo</p>
+                        </article>
+                        <!-- mart -->
+                        <article class="col-4 bg-white">
+                            <figure>
+                                <img src="imagem\mart.png" alt="Foto perfil moça cabelo castanho e camisa amarela">
+                            </figure>
+                            <ul class="row list-unstyled">
+                                <li class="col-2">
+                                    <img src="imagem\star.png" alt="estrela verde">
+                                </li>
+                                <li class="col-2">
+                                    <img src="imagem\star.png" alt="estrela verde">
+                                </li>
+                                <li class="col-2">
+                                    <img src="imagem\star.png" alt="estrela verde">
+                                </li>
+                                <li class="col-2">
+                                    <img src="imagem\star.png" alt="estrela verde">
+                                </li>
+                                <li class="col-2">
+                                    <img src="imagem\starw.png" alt="estrela verde">
+                                </li>
+                            </ul>
+                            <p>“Looks very natural,  the smell is awesome”</p>
+                            <p>Mart</p>
+                        </article>
+                    </article>
+                </article>
+            </section>
+            <section class="container">
+                <h1 class="text-center">Products</h1>
+            <h6 class="text-center">Order it for you or for your beloved ones</h6>
+            <article class="row">
+                <article class="col">
+                    <figure>
+                        <a href="#">
+                            <img class="bg-secondary bg-opacity-10" src="imagem\spicedMint.png" alt="Fragancia Spiced mint coloração azul">
+                        </a>
+                    </figure>
+                    <p>Spiced Mint</p>
+                    <p>9.99$</p>
+                </article>
+                <article class="col">
+                    <figure>
+                        <a href="#">
+                            <img class="bg-secondary bg-opacity-10" src="imagem\sweetBerry.png" alt="Fragancia Sweet strawberry">
+                        </a>
+                    </figure>
+                    <p>Sweet Strawberry</p>
+                    <p>9.99$</p>
+                </article>
+                <article class="col">
+                    <figure>
+                        <a href="#">
+                            <img class="bg-secondary bg-opacity-10" src="imagem\juicyLemon.png" alt="Fragancia Juicy Lemon">
+                        </a>
+                    </figure>
+                    <p>Juicy Lemon</p>
+                    <p>9.99$</p>
+                </article>
+                <article class="col">
+                    <figure>
+                        <a href="#">
+                            <img class="bg-secondary bg-opacity-10" src="imagem\cleanLavander.png" alt="Fragancia Clean Lavander">
+                        </a>
+                    </figure>
+                    <p>Juicy Lemon</p>
+                    <p>9.99$</p>
+                </article>
+            </article>
+            </section>
+            <button>
+                <a href="#">See more</a>
+            </button>
+        </main>
+        <footer>
+            <section class="bg-dark text-white">
+                <article class="container">
+                    <figure>
+                        <img src="imagem\footerlogo.png" alt="logo vela acessa em preto e branco">
+                    </figure>
+                    <p>Your natural candle made for your home and for your wellness.</p>
+                    <article class="row">
+                        <ul class="col-4">
+                            <li>Discovery</li>
+                            <li>New season</li>
+                            <li>Most searched</li>
+                            <li>Most selled</li>
+                        </ul> 
+                        <ul class="col-4">
+                            <li>Info</li>
+                            <li>Contact Us</li>
+                            <li>Privacy Policies</li>
+                            <li>Terms & Conditions</li>
+                        </ul> 
+                        <ul class="col-4">
+                            <li>About </li>
+                            <li>Help</li>
+                            <li>Shipping</li>
+                            <li>Affiliate</li>
+                        </ul>                  
+                    </article>
+                </article>
+            </section>
+            <section class="container">
+                <article class="copyright row py-3">
+                    <p class="col-6">©Candleaf All Rights Reserved.</p>
+                    <article class="col-6 row">
+                        <p class="col-4">Designed with</p>
+                        <p class="col-4 text-danger"><i class="bi bi-heart-fill"></i></p>
+                        <p class="col-4">by uxbly</p>
+                    </article>
+                </article>
+            </section>
+        </footer>
+        <!-- chamando a biblioteca jQuery -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>   
+             <!-- nosso js -->
+        <script src="final.js"></script>
+    </body>
+</html>

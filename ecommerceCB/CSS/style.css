@@ -1,0 +1,18 @@
+nav{
+   box-sizing: border-box; 
+   
+}
+
+.navbar{margin-bottom: 0;}
+
+.hamburguer{    
+    width: 30px; 
+}
+.hamburguer p{
+    display: block;
+    border-top: 3px solid #333;    
+}
+.botao{
+    border-radius: 4px;
+}
+
