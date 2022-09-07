@@ -1,17 +1,71 @@
+/* reset */
+button{border: 0;}
+
+/* menu */
 nav{
-   box-sizing: border-box; 
-   
+   box-sizing: border-box;  
+}
+header ul li a{
+    font: 500 16px/19px 'Roboto';
+    color: #272727;
+}
+.navbar{margin-bottom: 0;}
+/* espaço interno da primeira pagina */
+.paage-one{
+    padding-bottom: 125px;
+}
+/* titulos de paginas */
+h2{
+    padding-top: 90px;
+    margin-bottom: 15px;
+}
+h6{margin-bottom: 27px;}
+h1{
+    padding-top: 133px;
+    margin-bottom: 15px;
 }
 
-.navbar{margin-bottom: 0;}
+/* descrição e preço dos products */
+.col aside{
+    font: 500 16px/28px 'Poppins';
+    letter-spacing: -0.9px;
+    color: #1D293F;
+    padding-left: 26px;
+}
+.col p{
+    font: 500 20px/28px 'Roboto';
+    color: #56B280;
+    text-align: end;
+    padding-right: 26px;
+}
+/* clean nad fragrant */
+.made-for{
+    font: 400 16px/23px 'Poppins';
+    color: #56B280;
+    margin-bottom: 38px;
+}
+/* #about figure{padding-bottom: 209px;} */
+.space-fra li{margin-bottom: 10px;}
+.button-mockups{
+    margin-top: 68px;
+    background: #56B280;
+    border-radius: 4px;
+    padding: 8px 44px;
+}
+.button-mockups a{
+    font: 500 21px/24px 'Roboto';
+    color: #fff;
+    text-decoration: none;
+}
+.see-more{display: none;}
 
-.hamburguer{    
+/* .hamburguer{    
     width: 30px; 
 }
 .hamburguer p{
     display: block;
     border-top: 3px solid #333;    
-}
+} */
 .botao{
     border-radius: 4px;
 }
