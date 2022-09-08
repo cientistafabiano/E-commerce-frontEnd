@@ -32,19 +32,18 @@ h1{
     color: #1D293F;
     padding-left: 26px;
 }
-.col p{
+.price p{
     font: 500 20px/28px 'Roboto';
     color: #56B280;
     text-align: end;
     padding-right: 26px;
 }
-/* clean nad fragrant */
+/* seção descição fragrant */
 .made-for{
     font: 400 16px/23px 'Poppins';
     color: #56B280;
     margin-bottom: 38px;
 }
-/* #about figure{padding-bottom: 209px;} */
 .space-fra li{margin-bottom: 10px;}
 .button-mockups{
     margin-top: 68px;
@@ -57,6 +56,26 @@ h1{
     color: #fff;
     text-decoration: none;
 }
+/* essa classe é da imagem de mockups */
+.morckups{padding: 181px 0 173px;}
+
+/* seção testimonials */
+.box-persona{border-radius: 6px;}
+.persona-text{
+    font: 500 22px/29px 'Poppins';
+    color: #1D293F;
+    padding: 0 18px 0 28px;
+}
+.persona{
+    font: 400 18px/21px 'Helvetica';
+    color: #7C8087;
+    padding: 6px 0 29px;
+}
+.star{
+    justify-content: center;
+}
+.star li img{padding-right: 5px;}
+
 .see-more{display: none;}
 
 /* .hamburguer{    
